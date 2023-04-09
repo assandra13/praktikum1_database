@@ -58,9 +58,9 @@ kolom alamat!
 
 
 * ![img](folder/15.png)
-tipe data integer ukurannya tidak bisa lebih dari 11
+int(11) adalah tipe data integer dan memiliki panjang 11 karakter
 
 * ![img](folder/16.png)
-NULL YES : kalau tidak di isi tidak apa apa
-NULL NO  : kalau tidak di isi akan terjadi error
+Jika kolom "NULL" memiliki nilai "YES", artinya kolom tersebut diizinkan untuk berisi nilai "NULL". Ini berarti bahwa kolom tersebut tidak harus diisi dengan nilai tertentu saat melakukan operasi INSERT atau UPDATE pada tabel.
 
+Jika kolom "NULL" memiliki nilai "NO", artinya kolom tersebut tidak diizinkan untuk berisi nilai "NULL". Ini berarti bahwa kolom tersebut harus diisi dengan nilai tertentu saat melakukan operasi INSERT atau UPDATE pada tabel. Jika kita mencoba melakukan operasi INSERT atau UPDATE tanpa menyediakan nilai untuk kolom yang tidak diizinkan "NULL", maka MySQL akan menghasilkan kesalahan dan operasi tersebut akan gagal.
